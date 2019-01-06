@@ -4,12 +4,10 @@ import com.filezilla.domain.ImageStorage;
 import com.filezilla.repository.ImageStorageRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 
 @Service
 public class ImageStorageService  {
-
 
    private final ImageStorageRepository imageStorageRepository;
 

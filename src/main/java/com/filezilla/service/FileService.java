@@ -2,12 +2,10 @@ package com.filezilla.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
-
 import org.apache.commons.io.FilenameUtils;
 import org.springframework.http.MediaType;
 import org.springframework.util.FileCopyUtils;
 import org.springframework.util.InvalidMimeTypeException;
-
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 import java.nio.charset.Charset;
