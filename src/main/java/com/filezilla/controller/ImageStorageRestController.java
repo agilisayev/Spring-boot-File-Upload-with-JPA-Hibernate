@@ -19,11 +19,9 @@ import java.io.InputStream;
 import java.util.List;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/fileZilla")
 public class ImageStorageRestController {
-
     private final ImageStorageService imageStorageService;
-
     private final FileService fileService;
 
     @Autowired
